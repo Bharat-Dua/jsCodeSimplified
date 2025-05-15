@@ -98,3 +98,9 @@ let y = x;
 y.push(4);
 console.log(x); // [1, 2, 3, 4]
 // Explanation: In JavaScript, when you assign an array to a new variable, the new variable is a reference to the original array. So, y is a reference to x, and when you push 4 to y, you are also pushing 4 to x. So, x is also updated to [1, 2, 3, 4].
+
+//* 15.
+let a = 10;
+let b = "10";
+console.log(a == b); // true
+// Explanation: In JavaScript, when you compare a number and a string using the == operator, JavaScript will convert the string to a number. So, "10" is converted to 10, and 10 is equal to 10. So, a == b is true.
