@@ -56,3 +56,7 @@ console.log(b); // 4,10,18
 
 console.log(NaN === NaN); // false
 // Explanation: NaN is the only value in JavaScript that is not equal to itself. This is because NaN is a special value that represents an invalid or unreliable result, and NaN is part of the number type in JavaScript, but it doesn't act like a regular number. So, NaN === NaN returns false.
+
+//* 7.
+console.log(1 + "1" - 1); // 10
+// Explanation: In JavaScript, when you add a number and a string, JavaScript will concat the string to the number. So, "1" is concatenated to 1, resulting in "11". Then, 1 is subtracted from "11", resulting in 10. So, "11" - 1 is equal to 10.
