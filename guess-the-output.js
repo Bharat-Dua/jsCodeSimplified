@@ -104,3 +104,7 @@ let a = 10;
 let b = "10";
 console.log(a == b); // true
 // Explanation: In JavaScript, when you compare a number and a string using the == operator, JavaScript will convert the string to a number. So, "10" is converted to 10, and 10 is equal to 10. So, a == b is true.
+
+//* 16.
+let c = 10;
+c = c + 5; // 15
