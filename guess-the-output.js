@@ -81,3 +81,8 @@ while (i < 3) {
 var a;
 document.getElementById("demo").innerHTML = a + 1; // undefined + 1 = NaN
 // Explanation: In JavaScript, when you try to add a variable that is not defined, JavaScript will return NaN (Not a Number). So, a + 1 is equal to NaN. The variable a is not defined, so it is undefined, and undefined + 1 is equal to NaN.
+
+//* 12.
+var a = 10 + 20 + "5";
+document.getElementById("demo").innerHTML = a; // 30 + "5" = "305"
+// Explanation: In JavaScript, when you add a number and a string, JavaScript will concat the string to the number. So, "5" is concatenated to 30, resulting in "305".
