@@ -60,3 +60,7 @@ console.log(NaN === NaN); // false
 //* 7.
 console.log(1 + "1" - 1); // 10
 // Explanation: In JavaScript, when you add a number and a string, JavaScript will concat the string to the number. So, "1" is concatenated to 1, resulting in "11". Then, 1 is subtracted from "11", resulting in 10. So, "11" - 1 is equal to 10.
+
+//* 8.
+console.log({} + []); // "[object object]"
+// Explanation: In JavaScript, when you add an object and an array, JavaScript will convert the object to a string and the array to a string. The string representation of an object is "[object object ]", and the string representation of an array is "". So, "[object object]" + "" is equal to "[object object]".
