@@ -76,3 +76,8 @@ while (i < 3) {
   console.log(i); // infinite loop
 }
 // Explanation: The while loop will continue to run indefinitely because the condition i is always true.This is because i is initialized to 0, and the condition will always be true because i is never incremented or decremented. So, the loop will run indefinitely, printing 0 , 0, 0, and so on.
+
+//* 11.
+var a;
+document.getElementById("demo").innerHTML = a + 1; // undefined + 1 = NaN
+// Explanation: In JavaScript, when you try to add a variable that is not defined, JavaScript will return NaN (Not a Number). So, a + 1 is equal to NaN. The variable a is not defined, so it is undefined, and undefined + 1 is equal to NaN.
