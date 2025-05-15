@@ -8,3 +8,8 @@ console.log(obj1);
 //* 2.
 console.log(typeof NaN); // number
 // Explanation: NaN is a number, so typeof NaN returns "number".
+
+//* 3.
+var a = true + true + true * 3;
+console.log(a); // 5
+// Explanation: In JavaScript, true is equal to 1 and false is equal to 0. So, true + true + true * 3 is equal to 1 + 1 + 3 * 1, which is equal to 1 + 1 + 3, which is equal to 5. and multiplication operator have higher precedence than addition operator, so first 3 * 1 = 3 then addition (1+1+3) = 5.
