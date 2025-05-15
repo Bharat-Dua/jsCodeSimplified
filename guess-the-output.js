@@ -86,3 +86,8 @@ document.getElementById("demo").innerHTML = a + 1; // undefined + 1 = NaN
 var a = 10 + 20 + "5";
 document.getElementById("demo").innerHTML = a; // 30 + "5" = "305"
 // Explanation: In JavaScript, when you add a number and a string, JavaScript will concat the string to the number. So, "5" is concatenated to 30, resulting in "305".
+
+//* 13.
+var ab = 10 + 20 * 5;
+document.getElementById("tes").innerHTML = ab; // 10 + 100 = 110
+// Explanation: In JavaScript, when you add a number and a number, JavaScript will add the numbers . So, 10 + 100 is equal to 110. The multiplication is evaluated first, resulting in 100, and then 10 is added to 100 , resulting in 110. So, 10 + 20 * 5 is equal to 110. and multiplication operator have higher precendence.
