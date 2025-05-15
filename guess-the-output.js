@@ -51,3 +51,8 @@ iteration 3 :- a = 3, b = 10
 console.log(b); // 4,10,18
 
 */
+
+//* 6.
+
+console.log(NaN === NaN); // false
+// Explanation: NaN is the only value in JavaScript that is not equal to itself. This is because NaN is a special value that represents an invalid or unreliable result, and NaN is part of the number type in JavaScript, but it doesn't act like a regular number. So, NaN === NaN returns false.
