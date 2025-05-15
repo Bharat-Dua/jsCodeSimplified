@@ -91,3 +91,10 @@ document.getElementById("demo").innerHTML = a; // 30 + "5" = "305"
 var ab = 10 + 20 * 5;
 document.getElementById("tes").innerHTML = ab; // 10 + 100 = 110
 // Explanation: In JavaScript, when you add a number and a number, JavaScript will add the numbers . So, 10 + 100 is equal to 110. The multiplication is evaluated first, resulting in 100, and then 10 is added to 100 , resulting in 110. So, 10 + 20 * 5 is equal to 110. and multiplication operator have higher precendence.
+
+//* 14.
+let x = [1, 2, 3];
+let y = x;
+y.push(4);
+console.log(x); // [1, 2, 3, 4]
+// Explanation: In JavaScript, when you assign an array to a new variable, the new variable is a reference to the original array. So, y is a reference to x, and when you push 4 to y, you are also pushing 4 to x. So, x is also updated to [1, 2, 3, 4].
