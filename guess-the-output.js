@@ -112,3 +112,10 @@ c = c + 5; // 15
 //* 17.
 console.log(1 + "1" - 1); // 1 + "1" = "11" and "11" - 1 = 10
 // Explanation: In JavaScript, when you add a number and a string, JavaScript will concat the string to the number. So, "1" is concatenated to 1, resulting in "11". Then, "11" is subtracted by 1, resulting in 10. So, 1 + "1" - 1 is equal to 10.
+
+//* 18.
+let obj = { name: "John" };
+let obj2 = obj;
+obj2.name = "Doe";
+console.log(obj.name); // "Doe"
+// Explanation: In JavaScript, when you assign an object to a new variable, the new variable is a reference to the original object. So, obj2 is a reference to obj, and when you update obj2.name, you are also updating obj.name. So, obj.name is also updated to "Doe".
