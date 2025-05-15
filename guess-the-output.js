@@ -69,3 +69,10 @@ console.log({} + []); // "[object object]"
 let x = "Hello";
 let y = "World";
 console.log(x + " " + y); // "Hello World"
+
+//* 10.
+let i = 0;
+while (i < 3) {
+  console.log(i); // infinite loop
+}
+// Explanation: The while loop will continue to run indefinitely because the condition i is always true.This is because i is initialized to 0, and the condition will always be true because i is never incremented or decremented. So, the loop will run indefinitely, printing 0 , 0, 0, and so on.
