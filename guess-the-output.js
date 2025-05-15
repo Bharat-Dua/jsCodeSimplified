@@ -64,3 +64,8 @@ console.log(1 + "1" - 1); // 10
 //* 8.
 console.log({} + []); // "[object object]"
 // Explanation: In JavaScript, when you add an object and an array, JavaScript will convert the object to a string and the array to a string. The string representation of an object is "[object object ]", and the string representation of an array is "". So, "[object object]" + "" is equal to "[object object]".
+
+//* 9.
+let x = "Hello";
+let y = "World";
+console.log(x + " " + y); // "Hello World"
