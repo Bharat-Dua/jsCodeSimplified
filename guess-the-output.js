@@ -108,3 +108,7 @@ console.log(a == b); // true
 //* 16.
 let c = 10;
 c = c + 5; // 15
+
+//* 17.
+console.log(1 + "1" - 1); // 1 + "1" = "11" and "11" - 1 = 10
+// Explanation: In JavaScript, when you add a number and a string, JavaScript will concat the string to the number. So, "1" is concatenated to 1, resulting in "11". Then, "11" is subtracted by 1, resulting in 10. So, 1 + "1" - 1 is equal to 10.
