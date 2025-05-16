@@ -180,3 +180,11 @@ let b = 8;
 let result = a == b ? "Equal" : a > b ? "Greater" : "Smaller";
 console.log(result); // "Smaller"
 // here we are doing nested condition check using ternary operator.
+
+//* 27.
+const x = 5;
+const y = 10;
+const result =
+  x > y ? "Y is greater" : y > x ? "X is greater" : "Both are equal";
+console.log(result); // "X is greater"
+// here we are doing nested condition check using ternary operator.
