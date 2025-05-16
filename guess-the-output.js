@@ -151,3 +151,14 @@ let b = a;
 b = 10;
 console.log(a); // 5
 // Explanation: In JavaScript, when you assign a primitive type value to a new variable, the new variable is a copy of the original value. So, b is a copy of a, and when you update b to 10, you are not updating a. So, a is still 5.
+
+//* 23.
+let x = "5";
+x++;
+console.log(x); // 6
+// Explanation: In JavaScript, when you use the ++ operator on a string, JavaScript will convert the string to a number using ToNumber(x) method and then increment it. So, "5" is converted to 5, and then 5 is incremented to 6. So, x is 6.
+/* for x++ behind the scenes algo 
+temp = ToNumber(x); 
+x = temp + 1;       
+return temp;        
+*/
