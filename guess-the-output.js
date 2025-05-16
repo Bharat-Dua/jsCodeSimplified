@@ -132,3 +132,15 @@ let obj = { name: "Alice" };
 let keys = Object.keys(obj);
 console.log(keys); // ["name"]
 // Explanation: In JavaScript, the Object.keys() method returns an array of a given object's own enumerable property names. So, Object.keys(obj) returns an array with the key "name".
+
+//* 21.
+const data1 = {
+  d: "javascript",
+};
+const data2 = {
+  d: "javascript",
+};
+
+console.log(data1 === data2); // false
+
+// Explanation: In JavaScript, when you compare two objects using the === operator, JavaScript will compare their references. So, data1 and data2 are two different objects, and their references are also different.So, data1 === data2 is false.
