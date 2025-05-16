@@ -126,3 +126,9 @@ let y = [...x];
 y.push(4);
 console.log(x); // [1, 2, 3]
 // Explanation: In JavaScript, when you use the spread operator to create a new array, the new array is a copy of the original array. So, y is a copy of x, and when you push 4 to y, you are not updating x. So, x is still [ 1, 2, 3].
+
+//* 20.
+let obj = { name: "Alice" };
+let keys = Object.keys(obj);
+console.log(keys); // ["name"]
+// Explanation: In JavaScript, the Object.keys() method returns an array of a given object's own enumerable property names. So, Object.keys(obj) returns an array with the key "name".
