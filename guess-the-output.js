@@ -225,3 +225,10 @@ const person = {
 };
 
 console.log(Object.keys(person)); // ["name", "age"]
+
+//* 32.
+const obj = { a: 1, b: 2 };
+const clone = obj;
+clone.a = 3;
+console.log(obj.a); // 3
+// here we are doing object cloning using assignment operator. and changing the value of the cloned object also changes the original object. because both are pointing to the same memory location. and we know objects are passed by reference in JavaScript.
