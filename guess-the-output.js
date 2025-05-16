@@ -193,3 +193,15 @@ console.log(result); // "X is greater"
 const age = 25;
 const status = age < 18 ? "Minor" : age < 65 ? "Adult" : "Senior";
 console.log(status); // "Adult"
+
+//* 29.
+let a = 15;
+if (a > 10) {
+  if (a < 20) {
+    console.log("Between 10 and 20"); // This will be printed
+  } else {
+    console.log("Greater than or equal to 20");
+  }
+} else {
+  console.log("Less than or equal to 10");
+}
