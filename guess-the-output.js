@@ -217,3 +217,11 @@ if (num % 2 === 0) {
 } else {
   console.log("Odd number");
 }
+
+//* 31.
+const person = {
+  name: "John",
+  age: 30,
+};
+
+console.log(Object.keys(person)); // ["name", "age"]
