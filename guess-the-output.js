@@ -232,3 +232,12 @@ const clone = obj;
 clone.a = 3;
 console.log(obj.a); // 3
 // here we are doing object cloning using assignment operator. and changing the value of the cloned object also changes the original object. because both are pointing to the same memory location. and we know objects are passed by reference in JavaScript.
+
+//* 33.
+const obj = {
+  name: "John",
+  age: 30,
+};
+
+console.log("age" in obj); // true
+// here we are checking if the property "age" exists in the object. using the in operator we use in operator to check if a property exists in an object. it returns true if the property exists and false if it does not.
