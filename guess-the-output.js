@@ -173,3 +173,10 @@ let y = 20;
 let result = x < y ? x + y : x - y;
 console.log(result); // 30
 // Explanation: In JavaScript, the ternary operator (?:) is a shorthand for if-else statement.
+
+//* 26.
+let a = 5;
+let b = 8;
+let result = a == b ? "Equal" : a > b ? "Greater" : "Smaller";
+console.log(result); // "Smaller"
+// here we are doing nested condition check using ternary operator.
