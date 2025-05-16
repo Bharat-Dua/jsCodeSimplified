@@ -162,3 +162,7 @@ temp = ToNumber(x);
 x = temp + 1;       
 return temp;        
 */
+
+//* 24.
+console.log("5" - 3); // 2
+// Explanation: In JavaScript, when you use the - operator on a string, JavaScript will convert the given string to a number using ToNumber(x) method and then subtract 3 from it. So, "5" is converted to 5, and then 5 - 3 is 2. So, the result is 2.
