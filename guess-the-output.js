@@ -144,3 +144,10 @@ const data2 = {
 console.log(data1 === data2); // false
 
 // Explanation: In JavaScript, when you compare two objects using the === operator, JavaScript will compare their references. So, data1 and data2 are two different objects, and their references are also different.So, data1 === data2 is false.
+
+//* 22.
+let a = 5;
+let b = a;
+b = 10;
+console.log(a); // 5
+// Explanation: In JavaScript, when you assign a primitive type value to a new variable, the new variable is a copy of the original value. So, b is a copy of a, and when you update b to 10, you are not updating a. So, a is still 5.
