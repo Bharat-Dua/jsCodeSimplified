@@ -241,3 +241,9 @@ const obj = {
 
 console.log("age" in obj); // true
 // here we are checking if the property "age" exists in the object. using the in operator we use in operator to check if a property exists in an object. it returns true if the property exists and false if it does not.
+
+//* 34.
+const person = { name: "Alice", age: 25 };
+delete person.age;
+console.log(person.age); // undefined
+// here we are deleting the property "age" from the object using the delete operator. and then we are trying to access the deleted property. and it returns undefined. because the property has been deleted from the object. and we know objects are mutable in JavaScript. and we can delete properties from objects using the delete operator. and delete operator returns true if it delete a property.
