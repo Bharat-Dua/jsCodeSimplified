@@ -188,3 +188,8 @@ const result =
   x > y ? "Y is greater" : y > x ? "X is greater" : "Both are equal";
 console.log(result); // "X is greater"
 // here we are doing nested condition check using ternary operator.
+
+//* 28.
+const age = 25;
+const status = age < 18 ? "Minor" : age < 65 ? "Adult" : "Senior";
+console.log(status); // "Adult"
