@@ -205,3 +205,15 @@ if (a > 10) {
 } else {
   console.log("Less than or equal to 10");
 }
+
+//* 30.
+let num = 4;
+if (num % 2 === 0) {
+  if (num === 4) {
+    console.log("Even and equals 4"); // This will be printed
+  } else {
+    console.log("Even but not 4");
+  }
+} else {
+  console.log("Odd number");
+}
