@@ -119,3 +119,10 @@ let obj2 = obj;
 obj2.name = "Doe";
 console.log(obj.name); // "Doe"
 // Explanation: In JavaScript, when you assign an object to a new variable, the new variable is a reference to the original object. So, obj2 is a reference to obj, and when you update obj2.name, you are also updating obj.name. So, obj.name is also updated to "Doe".
+
+//* 19.
+let x = [1, 2, 3];
+let y = [...x];
+y.push(4);
+console.log(x); // [1, 2, 3]
+// Explanation: In JavaScript, when you use the spread operator to create a new array, the new array is a copy of the original array. So, y is a copy of x, and when you push 4 to y, you are not updating x. So, x is still [ 1, 2, 3].
