@@ -290,3 +290,14 @@ for (let i = 1; i <= 5; i++) {
   sum += i;
 }
 console.log(sum); // 15
+
+//* 40.
+const arr = [90, 70, 50, 30, 200, 300, 130];
+let max = arr[0];
+for (i = 1; i < arr.length; i++) {
+  if (max < arr[i]) {
+    max = arr[i];
+  }
+}
+
+console.log(max); // 300
