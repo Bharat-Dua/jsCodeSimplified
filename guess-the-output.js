@@ -405,3 +405,13 @@ console.log(arr.slice(-3, -1)); // [30, 40]
 let str = "Hello, world!";
 let result = str.slice(7, 12);
 console.log(result); // "world"
+
+//* 54.
+let i = 0;
+while (i < 4) {
+  if (i === 2) {
+    break;
+  }
+  console.log(i); // 0,1
+  i++;
+}
