@@ -428,3 +428,16 @@ switch (value) {
 }
 // output order :- Four, Five, Default
 // because in switch case if the value is matched then it will execute the code of that case and then it will execute the code of all the cases below it. if we don't use the break keyword.and will keep on executing the code of all the cases below it. till the default case is reached.
+
+//* 56.
+let fruit = "apple";
+switch (fruit) {
+  case "apple":
+  case "banana":
+    console.log("This is a fruit."); // This is a fruit.
+    break;
+  default:
+    console.log("Unknown");
+}
+// output:- This is a fruit.
+// because in switch case if the value is matched then it will execute the code of that case and then it will execute the code of all the cases below it. if we don't use the break keyword.and will keep on executing the code of all the cases below it. till the default case is reached.
