@@ -400,3 +400,8 @@ console.log(arr.slice(1, -1)); // ['banana', 'cherry']
 //* 52.
 let arr = [10, 20, 30, 40, 50]; // 5-3=2 5-1=4
 console.log(arr.slice(-3, -1)); // [30, 40]
+
+//* 53.
+let str = "Hello, world!";
+let result = str.slice(7, 12);
+console.log(result); // "world"
