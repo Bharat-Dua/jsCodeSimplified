@@ -312,3 +312,11 @@ for (i = 1; i < arr.length; i++) {
 }
 
 console.log(min); // 30
+
+//* 42.
+function sayHello() {
+  console.log("Hello!"); // Hello!
+}
+let greet = sayHello;
+greet();
+// Becuase here we are calling the function sayHello which is stored in the variable greet. So it will print "Hello!"
