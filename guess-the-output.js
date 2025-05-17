@@ -267,3 +267,12 @@ familyMembers = familyMembers.map((name) => {
 });
 
 console.log(familyMembers); // ["mahesh Kumawat", "niharika Kumawat", "harsh Kumawat", "mamta Kumawat"]
+
+//* 37.
+const arr = [1, 2, 3, 4, 5];
+
+console.log(
+  arr.map((vars) => {
+    return vars;
+  })
+); // [1, 2, 3, 4, 5]
