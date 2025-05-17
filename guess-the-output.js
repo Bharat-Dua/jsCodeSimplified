@@ -320,3 +320,17 @@ function sayHello() {
 let greet = sayHello;
 greet();
 // Becuase here we are calling the function sayHello which is stored in the variable greet. So it will print "Hello!"
+
+//* 43.
+function istrue(num) {
+  if (num <= 1) {
+    return false;
+  }
+  for (let i = 2; i <= num; i++) {
+    if (num % i === 0) {
+      return false;
+    }
+    return true;
+  }
+}
+console.log(istrue(2)); // false
