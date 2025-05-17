@@ -391,5 +391,12 @@ console.log(result); // [2, 3]
 let arr = ["apple", "banana", "cherry", "date"];
 console.log(arr.slice(1, -1)); // ['banana', 'cherry']
 // so in slice if both are +ve - then slice start from left to right exclude the right one (0,lastindex-1)
-// if both are -ve then slice start from right to left include the right one (-1) and exclude the left one (-lastindex-1) .
-// if one is +ve and other is -ve then slice start from left to right include the left one and exclude the right one.
+
+// Even when both indices are negative, slice still works left to right in logical array order.
+
+// If start is positive and end is negative, then start counts from the beginning and end counts from the end. Slice still works left to right, including start and excluding end.
+
+//? Note:- "Convert both to positive by doing: length + index, then slice from start to end, just like with positive numbers."
+//* 52.
+let arr = [10, 20, 30, 40, 50]; // 5-3=2 5-1=4
+console.log(arr.slice(-3, -1)); // [30, 40]
