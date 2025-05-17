@@ -344,3 +344,11 @@ data1 = {
 };
 console.log(data1 === data1); // true
 // because here we are reassigning the value of data1 to a new object. So it will print true. and it's comparing to itself. So it will print true.
+
+//* 45.
+const str = "hello";
+
+for (const char in str) {
+  console.log(char); // 0 1 2 3 4
+}
+// because here we using forin loop over string. So it will print the index of the string. Not the character. because forin loop is used to iterate over the properties of an object. And string is also an object in JavaScript . So it will print the index of the string. Not the character.and we know forin loop is use to loop over enumerable property keys of an object.
