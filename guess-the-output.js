@@ -352,3 +352,11 @@ for (const char in str) {
   console.log(char); // 0 1 2 3 4
 }
 // because here we using forin loop over string. So it will print the index of the string. Not the character. because forin loop is used to iterate over the properties of an object. And string is also an object in JavaScript . So it will print the index of the string. Not the character.and we know forin loop is use to loop over enumerable property keys of an object.
+
+//* 46.
+function sum(a, b, c) {
+  return a + b + c;
+}
+
+let numbers = [1, 2, 3];
+console.log(sum(...numbers)); // 6
