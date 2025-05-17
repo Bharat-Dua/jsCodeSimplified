@@ -360,3 +360,8 @@ function sum(a, b, c) {
 
 let numbers = [1, 2, 3];
 console.log(sum(...numbers)); // 6
+
+//* 47.
+const obj = { name: "John", age: 30 };
+const newObj = { ...obj };
+console.log(newObj); // { name: "John", age: 30 }
