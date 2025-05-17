@@ -258,3 +258,12 @@ const obj = {
 
 console.log(obj.greet()); // Hello, Bob!
 // here we are accessing the method "greet" from the object using the dot notation. and the value of this is pointing to the object itself. and we know this keyword in JavaScript is a reference to the current execution context. and it is used to access the properties of the current execution context. so in this case, this is pointing to the object itself. and we are accessing the property 'greet' and returns the value of the function. and we are logging the result to the console. and it prints "Hello, Bob!".
+
+//* 36.
+let familyMembers = ["mahesh", "niharika", "harsh", "mamta"];
+
+familyMembers = familyMembers.map((name) => {
+  return name + " Kumawat";
+});
+
+console.log(familyMembers); // ["mahesh Kumawat", "niharika Kumawat", "harsh Kumawat", "mamta Kumawat"]
