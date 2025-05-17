@@ -365,3 +365,10 @@ console.log(sum(...numbers)); // 6
 const obj = { name: "John", age: 30 };
 const newObj = { ...obj };
 console.log(newObj); // { name: "John", age: 30 }
+
+//* 48.
+const obj1 = { name: "John", age: 30 };
+const obj2 = { age: 35 };
+const updatedObj = { ...obj1, ...obj2 };
+console.log(updatedObj); // { name: "John", age: 35 }
+// when we are using an spread operator to merge an object and if the object have the same property the last one will be override. So here age will be 35. not 30.
