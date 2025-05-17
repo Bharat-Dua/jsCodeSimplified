@@ -386,3 +386,10 @@ console.log(count); // 6
 let arr = [1, 2, 3, 4, 5];
 let result = arr.slice(1, 3);
 console.log(result); // [2, 3]
+
+//* 51.
+let arr = ["apple", "banana", "cherry", "date"];
+console.log(arr.slice(1, -1)); // ['banana', 'cherry']
+// so in slice if both are +ve - then slice start from left to right exclude the right one (0,lastindex-1)
+// if both are -ve then slice start from right to left include the right one (-1) and exclude the left one (-lastindex-1) .
+// if one is +ve and other is -ve then slice start from left to right include the left one and exclude the right one.
