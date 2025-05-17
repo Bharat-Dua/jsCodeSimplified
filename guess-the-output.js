@@ -415,3 +415,16 @@ while (i < 4) {
   console.log(i); // 0,1
   i++;
 }
+
+//* 55.
+let value = 4;
+switch (value) {
+  case 4:
+    console.log("Four");
+  case 5:
+    console.log("Five");
+  default:
+    console.log("Default");
+}
+// output order :- Four, Five, Default
+// because in switch case if the value is matched then it will execute the code of that case and then it will execute the code of all the cases below it. if we don't use the break keyword.and will keep on executing the code of all the cases below it. till the default case is reached.
