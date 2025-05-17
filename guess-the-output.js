@@ -334,3 +334,13 @@ function istrue(num) {
   }
 }
 console.log(istrue(2)); // false
+
+//* 44
+let data1 = {
+  d: "Jaipur",
+};
+data1 = {
+  d: "City",
+};
+console.log(data1 === data1); // true
+// because here we are reassigning the value of data1 to a new object. So it will print true. and it's comparing to itself. So it will print true.
