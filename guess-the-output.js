@@ -247,3 +247,14 @@ const person = { name: "Alice", age: 25 };
 delete person.age;
 console.log(person.age); // undefined
 // here we are deleting the property "age" from the object using the delete operator. and then we are trying to access the deleted property. and it returns undefined. because the property has been deleted from the object. and we know objects are mutable in JavaScript. and we can delete properties from objects using the delete operator. and delete operator returns true if it delete a property.
+
+//* 35.
+const obj = {
+  name: "Bob",
+  greet: function () {
+    return `Hello, ${this.name}!`;
+  },
+};
+
+console.log(obj.greet()); // Hello, Bob!
+// here we are accessing the method "greet" from the object using the dot notation. and the value of this is pointing to the object itself. and we know this keyword in JavaScript is a reference to the current execution context. and it is used to access the properties of the current execution context. so in this case, this is pointing to the object itself. and we are accessing the property 'greet' and returns the value of the function. and we are logging the result to the console. and it prints "Hello, Bob!".
