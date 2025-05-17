@@ -301,3 +301,14 @@ for (i = 1; i < arr.length; i++) {
 }
 
 console.log(max); // 300
+
+//* 41.
+const arr = [90, 70, 50, 30, 200, 300, 130];
+let min = arr[0];
+for (i = 1; i < arr.length; i++) {
+  if (min > arr[i]) {
+    min = arr[i];
+  }
+}
+
+console.log(min); // 30
