@@ -372,3 +372,12 @@ const obj2 = { age: 35 };
 const updatedObj = { ...obj1, ...obj2 };
 console.log(updatedObj); // { name: "John", age: 35 }
 // when we are using an spread operator to merge an object and if the object have the same property the last one will be override. So here age will be 35. not 30.
+
+//* 49.
+let count = 0;
+for (let i = 0; i < 3; i++) {
+  for (let j = 0; j < 2; j++) {
+    count++;
+  }
+}
+console.log(count); // 6
