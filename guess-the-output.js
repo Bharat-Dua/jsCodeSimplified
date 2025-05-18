@@ -460,3 +460,9 @@ for (let i = 0; i < 3; i++) {
   }
 }
 console.log(result); // '0 1 1 2 2 3'
+
+//* 59.
+let a = 10;
+let b = 5;
+let result = (a > b && b > 0) || a === 10;
+console.log(result); // true
