@@ -450,3 +450,13 @@ for (let i = 1; i <= 3; i++) {
   }
 }
 console.log(sum); // 9
+
+//* 58.
+let result = "";
+for (let i = 0; i < 3; i++) {
+  for (let j = 0; j < 2; j++) {
+    // result += i + j + " ";
+    result = result + i + j + " ";
+  }
+}
+console.log(result); // '0 1 1 2 2 3'
