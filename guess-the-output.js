@@ -441,3 +441,12 @@ switch (fruit) {
 }
 // output:- This is a fruit.
 // because in switch case if the value is matched then it will execute the code of that case and then it will execute the code of all the cases below it. if we don't use the break keyword.and will keep on executing the code of all the cases below it. till the default case is reached.
+
+//* 57.
+let sum = 0;
+for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 3; j++) {
+    sum++;
+  }
+}
+console.log(sum); // 9
